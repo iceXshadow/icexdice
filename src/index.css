@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    --var-font: "Silkscreen";
+    font-family: var(--var-font);
+}
+
+/* Light mode (default) */
+:root {
+    --bg-color: #f3f7fb;
+    --text-color: #121316;
+    --primary-color: #18181c;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121316;
+        --text-color: #f3f7fa;
+        --primary-color: #f7fafc;
+    }
+}
+
+/* Applying the variables */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
