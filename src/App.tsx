@@ -5,7 +5,7 @@ import Roll from "./components/Roll"
 
 const App: React.FC = () => {
   return (
-    <main className="w-screen min-h-screen flex flex-col gap-36">
+    <main className="w-screen min-h-screen flex flex-col gap-28">
       <Navbar />
       <div className="w-full flex flex-col items-center justify-center gap-12">
         <Heading />

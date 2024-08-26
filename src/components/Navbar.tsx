@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
             <nav>
                 <ul>
                     <li>
-                        <a href="/" className="flex gap-3 items-center">
+                        <a href="/" className="flex gap-3 items-center justify-center md:justify-start">
                             <img src="/dmlogo.svg" alt="logo" className="w-10" />
                             <p>Geeks for Geeks</p>
                         </a>
